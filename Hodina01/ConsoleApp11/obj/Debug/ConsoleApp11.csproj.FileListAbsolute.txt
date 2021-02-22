@@ -1,0 +1,7 @@
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina01\ConsoleApp11\bin\Debug\ConsoleApp11.exe.config
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina01\ConsoleApp11\bin\Debug\ConsoleApp11.exe
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina01\ConsoleApp11\bin\Debug\ConsoleApp11.pdb
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina01\ConsoleApp11\obj\Debug\ConsoleApp11.csprojAssemblyReference.cache
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina01\ConsoleApp11\obj\Debug\ConsoleApp11.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina01\ConsoleApp11\obj\Debug\ConsoleApp11.exe
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina01\ConsoleApp11\obj\Debug\ConsoleApp11.pdb

@@ -1,0 +1,7 @@
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina03\Priklad_3_7\bin\Debug\Priklad_3_7.exe.config
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina03\Priklad_3_7\bin\Debug\Priklad_3_7.exe
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina03\Priklad_3_7\bin\Debug\Priklad_3_7.pdb
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina03\Priklad_3_7\obj\Debug\Priklad_3_7.csprojAssemblyReference.cache
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina03\Priklad_3_7\obj\Debug\Priklad_3_7.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina03\Priklad_3_7\obj\Debug\Priklad_3_7.exe
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina03\Priklad_3_7\obj\Debug\Priklad_3_7.pdb

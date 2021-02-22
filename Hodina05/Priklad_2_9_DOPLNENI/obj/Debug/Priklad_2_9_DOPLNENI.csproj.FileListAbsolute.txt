@@ -1,0 +1,6 @@
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina05\Priklad_2_9_DOPLNENI\bin\Debug\Priklad_2_9_DOPLNENI.exe.config
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina05\Priklad_2_9_DOPLNENI\bin\Debug\Priklad_2_9_DOPLNENI.exe
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina05\Priklad_2_9_DOPLNENI\bin\Debug\Priklad_2_9_DOPLNENI.pdb
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina05\Priklad_2_9_DOPLNENI\obj\Debug\Priklad_2_9_DOPLNENI.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina05\Priklad_2_9_DOPLNENI\obj\Debug\Priklad_2_9_DOPLNENI.exe
+C:\Users\Acer\Desktop\VŠFS\zima2020\B_UPg\Cviceni_VisualStudio_Upg\Hodina05\Priklad_2_9_DOPLNENI\obj\Debug\Priklad_2_9_DOPLNENI.pdb
