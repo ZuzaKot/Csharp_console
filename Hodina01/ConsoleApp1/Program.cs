@@ -12,6 +12,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ConsoleApp1 // PŘÍKLAD 1.1: SPECIFICKÝ ARITMETICKÝ VÝRAZ
+// Ve funkci Main deklarujte tři celočíselné proměnné a tyto proměnné inicializujte hodnotami.
+// Napište program, který spočte následující aritmetický výraz. Hodnoty posledních dvou proměnných vynásobte
+// a od získaného výsledku odečtěte hodnotu první proměnné. Aritmetický výraz a jeho výsledek
+// vypište vhodným způsobem na obrazovku.
 {
     class Program
     {

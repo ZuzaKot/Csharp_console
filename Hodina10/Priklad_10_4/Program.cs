@@ -13,6 +13,20 @@ using System.Threading.Tasks;
 using System.IO;
 
 namespace Priklad_10_4   // FALEŠNÁ MINCE
+// Na vstupu je pole, obsahující hmotnosti mincí. Všechny mince mají shodnou hmotnost s výjimkou
+// jedné falešné mince, která má hmotnost menší. K dispozici máme dvojramennou váhu,
+// pomocí které můžeme porovnat hmotnost jedné skupiny mincí vůči hmotnosti druhé
+// skupiny mincí. Napište funkci, která vrátí index falešné mince za použití co nejmenšího
+// počtu vážení. Nápověda: počet vážení řádově odpovídající počtu mincí je neefektivní.
+
+// ENG
+// FALSE COIN
+// There is a field includes weight of coins as a input. All of coins have same weight
+// except false one which has lower weight. We have got two-arm weighing scale and we can
+// compare weight of two groups of coins. Write a function which returns index of false coin
+// by using repetitions as less as possible.
+
+
 {
     class Program
     {
@@ -50,7 +64,7 @@ namespace Priklad_10_4   // FALEŠNÁ MINCE
             IndexFM(NaplnPole(pocetMinci, vahaMince), aktualniIndex, maxIndex, vahaMince);
 
 
-            
+
             Console.ReadLine();
         }
     }

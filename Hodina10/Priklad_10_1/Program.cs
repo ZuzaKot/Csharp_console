@@ -12,7 +12,30 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace Priklad_10_1   // REKURZE S JEDNÍM VOLÁNÍM                
+namespace Priklad_10_1   // REKURZE S JEDNÍM VOLÁNÍM
+// S využitím rekurze napište následující funkce. Na začátku každé funkce bude výpis
+// (v režimu Append) do souboru log.txt. Zapisovat budeme: (1) volání funkce a hodnotu parametrů;
+// (2) ukončení funkce a návratová hodnota. Otevřený soubor bude jedním z parametrů funkce.
+//      a) Rekurzivní funkce zanořující se na podproblém velikosti n-1, která vrátí hodnotu
+// nejmenšího prvku v poli.
+//      b) Rekurzivní funkce zanořující se na podproblém velikosti n-1, která vrátí součet prvků
+// v poli, které mají kladnou hodnotu.
+//      c) Rekurzivní funkce zanořující se na dva podproblémy velikosti n/2, která vrátí hodnotu
+// nejmenšího prvku v poli.
+//      d) Rekurzivní zanořující se na dva podproblémy velikosti n/2, která vrátí součet prvků
+// v poli, které mají kladnou hodnotu.
+
+
+// ENG
+// RECURSIVE FUNCTION WITH ONE CALL
+// Use recursive to write following functions. There will be listed to file log.txt
+// at the beginning of each. We will write: (1) call the function with parameter,
+// (2) end of function and returned value. Open file will be one of parameter of function.
+//    a) Recursive function (size n-1), which returns the smallest value of element.
+//    b) Recursive function (size n-1), which returns the sum of the elements with a positive value.
+//    c) Recursive function (size n/2), which returns the smallest value of element.
+//    d) Recursive function (size n/2), which returns the sum of the elements with a positive value.
+
 {
     class Program
     {
@@ -72,7 +95,7 @@ namespace Priklad_10_1   // REKURZE S JEDNÍM VOLÁNÍM
                 NejmensiPrvek(dokument, p, indexNejmensiP, maxIndexP, soucetKladnych);
                 PocetKladnych(dokument, p, indexNejmensiP, maxIndexP, soucetKladnych);
             dokument.Close();
-            
+
             Console.ReadLine();
         }
     }
