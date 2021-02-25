@@ -12,7 +12,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace Priklad_9_3   // 
+namespace Priklad_9_3   // ASCII Art
+// Pomocí znaků hvězdičky "*" a mezery " " vytvořte následující obrazce...
+
+// ENG
+// By using symbol of star "*" and white space " " create following pictures...
+
 {
     class Program
     {
@@ -161,7 +166,7 @@ namespace Priklad_9_3   //
                 }
                 Console.WriteLine();
             }
-            
+
             return obr;
         }                                                                   ////////////////////////////////
         static void Main(string[] args)
