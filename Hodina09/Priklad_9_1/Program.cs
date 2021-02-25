@@ -12,9 +12,33 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace Priklad_9_1   // MATICE                               vyhotovené body a)-g) + i)                      
-{                                                                
-    class Program                                                
+namespace Priklad_9_1   // MATICE                               vyhotovené body a)-g) + i)
+// Napište následující funkce pracující s maticí celých čísel long:
+//    a) Funkci, která vytvoří matici zadaného rozměru naplněnou prvky s náhodnými hodnotami.
+// Hodnoty volte z intervalu [-4, +4], je to výhodné pro použití v dalších příkladech.
+//    b) Funkci, která zadanou matici uloží do textového souboru.
+//    c) Funkci, která z textového souboru načte matici.
+//    d) Funkci, která vytoří transponovanou matici (=záměna řádků za sloupce).
+//    e) Funkci testující, zda zadaná matice je symetrická.
+//    f) Funkce vracející pole obsqahující diagonálu matice.
+//    g) Funkci testující, zda matice je horní trojúhelníková.
+//    i) Funkci testující, zda matice je odstupňovaná.
+
+// ENG
+// MATRIX
+// Write following functions working with matrix of long integers:
+//    a) Function which create matrix of random integers from interval [-4, +4],
+// this way is better for next exercises.
+//    b) Function which save this matrix to text file.
+//    c) Function which read this matrix from that file.
+//    d) Function which create transposed matrix.
+//    e) Function testing if this matrix is symmetrical.
+//    f) Function returning integers on diagonal of matrix.
+//    g) Function testing if this matrix is top-triangle matrix.
+//    i) Function testing if this matrix is graduated.
+
+{
+    class Program
     {
         static bool JeJednotkovaMatice(long[,] J)
         {
@@ -56,7 +80,7 @@ namespace Priklad_9_1   // MATICE                               vyhotovené body
             }
             Console.WriteLine(je);
             return je;
-        }                                   
+        }
         static bool JeHorniTrojuhelnikova(long[,] H)
         {
             int i, j;
@@ -114,7 +138,7 @@ namespace Priklad_9_1   // MATICE                               vyhotovené body
                     }
                 }
             }
-            Console.WriteLine(symetrie);                
+            Console.WriteLine(symetrie);
             return symetrie;
         }
         static long[,] TransponovanaMatice(long[,] T)
@@ -160,7 +184,7 @@ namespace Priklad_9_1   // MATICE                               vyhotovené body
             }
             zapisDoDokumentu.Close();
         }
-        static long[,] SoucetMatic(long[,] A, long[,] B)                       
+        static long[,] SoucetMatic(long[,] A, long[,] B)
         {
             int typM_prvniMatice = A.GetLength(0);    //typ[M, N] = [0, 1]
             int typM_druheMatice = B.GetLength(0);
@@ -168,39 +192,39 @@ namespace Priklad_9_1   // MATICE                               vyhotovené body
             int typN_druheMatice = B.GetLength(1);
 
             long[,] novaMatice = new long[0, 0];      //typ[M, N]
-            if (typM_prvniMatice != typM_druheMatice) return novaMatice; 
-            if (typN_prvniMatice != typN_druheMatice) return novaMatice; 
+            if (typM_prvniMatice != typM_druheMatice) return novaMatice;
+            if (typN_prvniMatice != typN_druheMatice) return novaMatice;
 
             int i, j;
             long vysledne_cislo, cislo_prvni, cislo_druhe;
 
             novaMatice = new long[typM_prvniMatice, typN_prvniMatice];   // typ[M, N]
 
-            for (i = 0; i < typM_prvniMatice; i++)                      
-            {                                                                           
-                for (j = 0; j < typN_prvniMatice; j++)                            
-                {   
-                    cislo_prvni = A[i, j];     
+            for (i = 0; i < typM_prvniMatice; i++)
+            {
+                for (j = 0; j < typN_prvniMatice; j++)
+                {
+                    cislo_prvni = A[i, j];
                     cislo_druhe = B[i, j];
                     vysledne_cislo = cislo_prvni + cislo_druhe;
                     novaMatice[i, j] = vysledne_cislo;
                     Console.Write("{0} ", vysledne_cislo);
-                }                               
+                }
                 Console.WriteLine(); // odděluje čísla matice po řádcích
             }
             return novaMatice;
-            
-        }                                                                   
+
+        }
         static long X()          // volá náhodné číslo z intervalu [-4, +4]
-        {   
+        {
             Random nahodneCislo = new Random();
             long nove = nahodneCislo.Next(-4, 5);
             System.Threading.Thread.Sleep(1);       // !!! NUTNÉ!!! JINAK GENERUJE STEJNÁ ČÍSLA
             return nove;                            // musí se vlákno uspat aspoň na (1) tik procesoru, protože Random() počítá se systémovým časem
-        }                                           
+        }
         static void Main(string[] args)
         {
-            long[,] matice = { { X(), X(), X() }, { X(), X(), X() }, { X(), X(), X() } };    
+            long[,] matice = { { X(), X(), X() }, { X(), X(), X() }, { X(), X(), X() } };
             long[,] matice2 = { { X(), X(), X() }, { X(), X(), X() }, { X(), X(), X() } };
 
             long[,] maticeJednotkova = { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } };
@@ -216,7 +240,7 @@ namespace Priklad_9_1   // MATICE                               vyhotovené body
             Console.WriteLine("{0} {1} {2}", matice2[0, 0], matice2[0, 1], matice2[0, 2]);
             Console.WriteLine("{0} {1} {2}", matice2[1, 0], matice2[1, 1], matice2[1, 2]);
             Console.WriteLine("{0} {1} {2}", matice2[2, 0], matice2[2, 1], matice2[2, 2]);
-            
+
             Console.WriteLine("\nSoučet matic:\n");
             ZapisMaticiDoTxT(SoucetMatic(matice, matice2));
 
