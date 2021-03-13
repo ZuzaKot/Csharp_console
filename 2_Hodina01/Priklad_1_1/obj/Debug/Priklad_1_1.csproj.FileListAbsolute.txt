@@ -1,0 +1,7 @@
+C:\Users\Acer\Desktop\VŠFS\leto2021\B_Prg\Cviceni_VisualStudio_Prg\Hodina01\Priklad_1_1\bin\Debug\Priklad_1_1.exe.config
+C:\Users\Acer\Desktop\VŠFS\leto2021\B_Prg\Cviceni_VisualStudio_Prg\Hodina01\Priklad_1_1\bin\Debug\Priklad_1_1.exe
+C:\Users\Acer\Desktop\VŠFS\leto2021\B_Prg\Cviceni_VisualStudio_Prg\Hodina01\Priklad_1_1\bin\Debug\Priklad_1_1.pdb
+C:\Users\Acer\Desktop\VŠFS\leto2021\B_Prg\Cviceni_VisualStudio_Prg\Hodina01\Priklad_1_1\obj\Debug\Priklad_1_1.csprojAssemblyReference.cache
+C:\Users\Acer\Desktop\VŠFS\leto2021\B_Prg\Cviceni_VisualStudio_Prg\Hodina01\Priklad_1_1\obj\Debug\Priklad_1_1.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\VŠFS\leto2021\B_Prg\Cviceni_VisualStudio_Prg\Hodina01\Priklad_1_1\obj\Debug\Priklad_1_1.exe
+C:\Users\Acer\Desktop\VŠFS\leto2021\B_Prg\Cviceni_VisualStudio_Prg\Hodina01\Priklad_1_1\obj\Debug\Priklad_1_1.pdb
