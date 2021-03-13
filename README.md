@@ -1,5 +1,7 @@
 # Csharp_console
 C# console issues
+__________________________________________________________________________________________________________
+CZE
 
 Každá složka "Hodina" obsahuje vypracovaná cvičení. Ve složkách je většinou několik vypracovaných cvičení. Od nejjednodušších funkcí (1_Hodina01) po funkce používající rekurzivní volání (1_Hodina10). Čím vyšší číselné označení, tím složitější řešené příklady.
 
